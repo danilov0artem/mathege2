@@ -1,0 +1,16 @@
+.DS_Store
+
+# Сборка Jekyll (GitHub Pages пересобирает сайт сам — в репозитории не нужна)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Локальная заглушка для Ruby 4 (только для local serve)
+_plugins/
+serve.sh
+
+# Локальная тема для serve.sh (на GitHub Pages тема подтягивается через remote_theme)
+/_layouts
+/_includes
+/assets
+_config.local.yml

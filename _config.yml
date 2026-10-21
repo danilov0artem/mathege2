@@ -1,0 +1,35 @@
+title: МатЕГЭ 2
+subtitle: Полный курс подготовки к ЕГЭ по профильной математике
+description: >-
+  Отсортированные прототипы ЕГЭ по профильной математике по каждому заданию —
+  с разборами и ответами.
+url: https://mathege2.ru
+lang: ru
+
+# Общий движок (шаблоны, стили, скрипты) — репозиторий tasks-engine.
+# Изменения движка попадают сюда при следующей сборке сайта.
+remote_theme: danilov0artem/tasks-engine
+
+news_channel:
+  url: https://t.me/teacher_artem_ege
+  text: Новости о ЕГЭ по информатике и профильной математике в Telegram
+
+contacts:
+  vk: https://vk.com/d_artem
+  telegram: https://t.me/Danilov_artem_s
+
+# Задачи только локальные (tasks/taskN/taskN-other.json), API не используется.
+tasks_engine:
+  default_source: local
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - serve.sh
+  - _config.local.yml
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
