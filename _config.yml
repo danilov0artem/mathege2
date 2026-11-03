@@ -3,7 +3,8 @@ subtitle: Полный курс подготовки к ЕГЭ по профил
 description: >-
   Отсортированные прототипы ЕГЭ по профильной математике по каждому заданию —
   с разборами и ответами.
-url: https://mathege2.ru
+url: https://danilov0artem.github.io
+baseurl: /mathege2
 lang: ru
 
 # Общий движок (шаблоны, стили, скрипты) — репозиторий tasks-engine.
